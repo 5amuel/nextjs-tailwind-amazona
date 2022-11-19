@@ -50,7 +50,7 @@ const data = {
         },
         {
             name: 'Fit Pants',
-            slug: 'golf-pants',
+            slug: 'fit-pants',
             category: 'Pants',
             image: '/images/pants2.jpg',
             price: 95,
