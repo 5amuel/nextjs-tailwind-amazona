@@ -13,12 +13,12 @@ const Layout = ({ title, children }) => {
         <div className="flex min-h-screen flex-col justify-between">
             <header>
                 <nav className='flex h-12 items-center px-4 justify-between shadow-md'>
-                    <Link href="/" className='text-black hover:text-blue-500 text-lg font-bold'>
-                        amazona 
+                    <Link href="/" legacyBehavior>
+                        <a className='text-lg font-bold'>amazona </a> 
                     </Link>
                     <div>
-                        <Link href='/cart' className='p-2'>Cart</Link>
-                        <Link href='/login' className='p-2'>Login</Link>
+                        <Link href='/cart' legacyBehavior><a className='p-2'> Cart </a></Link>
+                        <Link href='/login' legacyBehavior><a className='p-2'> Login </a></Link>
                     </div>
                 </nav>
             </header>
